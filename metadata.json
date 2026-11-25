@@ -1,0 +1,6 @@
+{
+  "name": "AcehHypeTrip — Hidden Gem & Jalur Alam Aceh",
+  "description": "Platform open trip terarah untuk menjelajahi destinasi alam tersembunyi di Aceh Besar beserta peta lokasi, pemesanan kuota, dan verifikasi pembayaran.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,51 @@
+:root {
+  /* 60% Neutral Mineral Canvas */
+  --color-canvas: #f6f7f5;
+  /* 30% Structural Surfaces */
+  --color-surface: #ffffff;
+  --color-surface-muted: #ecefea;
+  --color-header-bg: rgba(246, 247, 245, 0.94);
+
+  /* 10% Forest & Earth Accents */
+  --color-forest: #112a1f;
+  --color-forest-hover: #1b4131;
+  --color-amber: #c88a1e;
+  --color-amber-hover: #b47a16;
+  --color-copper: #9a441f;
+  --color-copper-hover: #7f3617;
+
+  /* Ink & Borders */
+  --color-ink: #112a1f;
+  --color-ink-muted: #4a5d54;
+  --color-border: rgba(17, 42, 31, 0.12);
+  --color-border-strong: rgba(17, 42, 31, 0.22);
+
+  /* Semantic States */
+  --color-danger: #a61b1b;
+  --color-danger-hover: #861515;
+  --color-danger-bg: #fdf2f2;
+  --color-danger-border: #f3c6c6;
+  --color-success: #165b36;
+  --color-success-bg: #edf5ef;
+  --color-success-border: #b8d8c2;
+  --color-warn: #8a5308;
+  --color-warn-bg: #fcf6ea;
+
+  /* Typography */
+  --font-serif: 'Fraunces', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Radii */
+  --radius-sm: 0.45rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+
+  /* Elevation & Motion */
+  --shadow-card: 0 2px 10px rgba(17, 42, 31, 0.04);
+  --shadow-card-hover: 0 10px 24px rgba(17, 42, 31, 0.08);
+  --shadow-modal: 0 24px 48px rgba(17, 42, 31, 0.26);
+  --ease-settle: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --container-max: 75rem;
+}

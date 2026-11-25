@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AcehHypeTrip — Hidden Gem &amp; Jalur Alam Aceh</title>
+    <meta
+      name="description"
+      content="Platform open trip terarah untuk menjelajahi destinasi alam tersembunyi di Aceh Besar beserta peta lokasi, pemesanan kuota, dan verifikasi pembayaran."
+    />
+    <meta property="og:title" content="AcehHypeTrip — Hidden Gem &amp; Jalur Alam Aceh" />
+    <meta
+      property="og:description"
+      content="Platform open trip terarah untuk menjelajahi destinasi alam tersembunyi di Aceh Besar beserta peta lokasi, pemesanan kuota, dan verifikasi pembayaran."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/styles/tokens.css" />
+    <link rel="stylesheet" href="/src/styles/base.css" />
+    <link rel="stylesheet" href="/src/styles/layout.css" />
+    <link rel="stylesheet" href="/src/styles/components.css" />
+  </head>
+  <body>
+    <div id="toast-container" class="toast-container" role="status" aria-live="polite"></div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#home" class="brand-wordmark">AcehHypeTrip</a>
+
+        <button
+          id="mobile-menu-btn"
+          type="button"
+          class="mobile-menu-btn"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          aria-label="Buka navigasi"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav id="primary-nav" class="site-nav" aria-label="Navigasi utama">
+          <a href="#home" class="nav-link" data-route="home">Beranda</a>
+          <a href="#catalog" class="nav-link" data-route="catalog">Destinasi</a>
+          <a href="#gallery" class="nav-link" data-route="gallery">Galeri</a>
+          <a href="#about" class="nav-link" data-route="about">Tentang Kami</a>
+          <a href="#track" class="nav-link" data-route="track">Cek Pesanan</a>
+        </nav>
+
+        <div class="header-action">
+          <a href="#admin" id="header-admin-action" class="btn btn--forest btn--sm header-cta">
+            Portal Admin
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content" class="site-main" tabindex="-1"></main>
+
+    <dialog id="app-modal" class="app-modal" aria-labelledby="app-modal-title">
+      <div class="modal-header">
+        <h3 id="app-modal-title" class="modal-title">Pratinjau</h3>
+        <button id="app-modal-close" type="button" class="modal-close-btn" aria-label="Tutup dialog">
+          &times;
+        </button>
+      </div>
+      <div id="app-modal-body" class="modal-body"></div>
+    </dialog>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <a href="#home" class="brand-wordmark brand-wordmark--light">AcehHypeTrip</a>
+          <p class="footer-sub">Open trip terarah menuju jalur alam tersembunyi di Aceh Besar.</p>
+        </div>
+        <div class="footer-links">
+          <p class="footer-routes">
+            Lhok Ketapang · Savana Siron · Lhok Mata Ie · Air Terjun Luthu · Selawah Agam · Monceunong · Peuncari Cot · Bukit Cot Goh Dua
+          </p>
+          <p class="footer-legal">
+            <span>&copy; 2026 AcehHypeTrip</span>
+            <span aria-hidden="true">·</span>
+            <a href="#track" class="footer-link">Cek Status Pesanan</a>
+            <span aria-hidden="true">·</span>
+            <a href="#admin" class="footer-link">Portal Pengelola</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
